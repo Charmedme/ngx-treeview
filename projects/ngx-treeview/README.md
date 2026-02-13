@@ -10,6 +10,12 @@ For Bootstrap 4, use [1.0.0](https://www.npmjs.com/package/@charmedme/ngx-treevi
 
 You can customize CSS yourself to break down dependencies to Bootstrap.
 
+## Compatibility
+
+- Angular: `^21.0.0`
+- Bootstrap: `^5.0.0`
+- Node.js: use a supported LTS version for your Angular CLI version
+
 ## Features
 
 - Unlimited tree level
