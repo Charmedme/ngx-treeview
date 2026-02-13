@@ -45,7 +45,9 @@
 
 - Update readme
 
-# [2.0.8](https://www.npmjs.com/package/@charmedme/ngx-treeview) (2026-02-13)
+----------
+
+# [3.0.0](https://www.npmjs.com/package/@charmedme/ngx-treeview) (2026-02-13)
 
 ### Enhancement:
 
@@ -58,5 +60,10 @@
 - Fix demo startup (`npm run start`) by using root base href for local development
 - Keep GitHub Pages compatibility by setting `--base-href /ngx-treeview/` in `build:demo`
 - Refresh tests/configuration for Angular 21 migration compatibility
+
+### Breaking Changes:
+
+- Upgrade Angular peer dependency range to `^21.0.0`
+- Re-release as major version to reflect Angular 21 compatibility changes from `2.0.8`
 
 ----------
