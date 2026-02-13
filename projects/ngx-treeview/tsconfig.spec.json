@@ -10,6 +10,9 @@
   "files": [
     "src/test.ts"
   ],
+  "angularCompilerOptions": {
+    "strictTemplates": true
+  },
   "include": [
     "**/*.spec.ts",
     "**/*.d.ts"

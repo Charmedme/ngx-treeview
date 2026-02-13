@@ -1,3 +1,4 @@
+
 # [1.0.0](https://www.npmjs.com/package/@charmedme/ngx-treeview) (2022-06-01)
 
 ### Enhancement:
@@ -43,3 +44,19 @@
 ### Enhancement:
 
 - Update readme
+
+# [2.0.8](https://www.npmjs.com/package/@charmedme/ngx-treeview) (2026-02-13)
+
+### Enhancement:
+
+- Upgrade workspace and library to Angular 21
+- Upgrade TypeScript, ng-packagr, and related build tooling to Angular 21-compatible versions
+- Upgrade `gh-pages` to `^6.3.0` to address the prototype pollution advisory (GHSA-8mmm-9v2q-x3f9)
+
+### Fixes:
+
+- Fix demo startup (`npm run start`) by using root base href for local development
+- Keep GitHub Pages compatibility by setting `--base-href /ngx-treeview/` in `build:demo`
+- Refresh tests/configuration for Angular 21 migration compatibility
+
+----------

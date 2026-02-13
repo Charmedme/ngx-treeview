@@ -10,6 +10,12 @@ For Bootstrap 4, use [1.0.0](https://www.npmjs.com/package/@charmedme/ngx-treevi
 
 You can customize CSS yourself to break down dependencies to Bootstrap.
 
+## Compatibility
+
+- Angular: `^21.0.0`
+- Bootstrap: `^5.0.0`
+- Node.js: use a supported LTS version for your Angular CLI version
+
 ## Features
 
 - Unlimited tree level
@@ -119,10 +125,10 @@ const itCategory = new TreeviewItem(
           text: "Frontend",
           value: 911,
           children: [
-            { text: "Angular 12", value: 9112 },
-            { text: "Angular 13", value: 9113 },
-            { text: "Angular 14", value: 9114 },
-            { text: "Angular 15", value: 9115, disabled: true },
+            { text: "Angular 18", value: 9112 },
+            { text: "Angular 19", value: 9113 },
+            { text: "Angular 20", value: 9114 },
+            { text: "Angular 21", value: 9115, disabled: true },
             { text: "ReactJS", value: 9120 },
           ],
         },

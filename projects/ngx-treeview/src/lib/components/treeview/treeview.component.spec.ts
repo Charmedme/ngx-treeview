@@ -1,5 +1,5 @@
 ﻿import { Component, DebugElement } from '@angular/core';
-import { TestBed, ComponentFixture, fakeAsync, tick, async } from '@angular/core/testing';
+import { TestBed, ComponentFixture, fakeAsync, tick } from '@angular/core/testing';
 import { BrowserModule, By } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { TreeviewComponent } from './treeview.component';
@@ -23,8 +23,9 @@ const fakeData: FakeData = {
 };
 
 @Component({
-  selector: 'ngx-test',
-  template: ''
+    selector: 'ngx-test',
+    template: '',
+    standalone: false
 })
 class TestComponent {
   config = fakeData.config;
